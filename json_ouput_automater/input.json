@@ -1,0 +1,166 @@
+{
+    "id": "Grouping",
+    "name": "New Input Json",
+    "desc": "",
+    "sheet": {
+        "name": "SMA_sheet_JSON_converted",
+        "desc": ""
+    },
+
+    "testCase_list": [       
+                {
+                    "testcase_id": "TestCase_001",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA"
+                        },
+						{
+                            "action": "set_param"
+                        },               
+                        {
+                            "action": "start_playback"                     
+                        }
+                    ]
+                },
+                {
+                    "testcase_id": "TestCase_002",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA"
+                        },
+                        {
+                            "action": "set_param"
+                        },
+                        {
+                            "action": "start_playback"                         
+                        }	
+                    ]
+                },
+                {
+                    "testcase_id": "TestCase_003",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA"   
+                        },
+                        {
+                            "action": "start_playback"  
+                        },
+                        {
+                            "action": "set_param"
+                        },
+						{
+                            "action": "stop_playback"
+                        }
+                    ]
+                },
+                {
+                    "testcase_id": "TestCase_004",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA"
+                        },
+                        {
+                            "action": "start_playback"
+                        },
+                        {
+                            "action": "set_param"
+                        },
+						{
+                            "action": "stop_playback"
+                        }
+                    ]
+                },
+                {
+                    "testcase_id": "TestCase_005",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA" 
+                        },
+                        {
+                            "action": "set_param"
+                        },
+                        {
+                            "action": "start_playback"
+                        }
+                    ]
+                },
+                {
+                    "testcase_id": "TestCase_006",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA"
+                        },
+                        {
+                            "action": "set_param"
+                        },
+                        {
+                            "action": "start_playback"
+                        }
+                    ]
+                }     
+    ],
+    
+	
+    "content_list": [
+                         {
+						        "content_id": "Content_1",
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "001_NAVY_SEALS_2Audio.mkv"
+                            },       
+                        {
+							    "content_id": "Content_2",
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "180min_AVC_CBR_768kbps_320x240.mp4"
+                            },
+                        {     
+						        "content_id": "Content_3",
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "FR_AV1_3840x2160_120p.mkv"
+                            },    
+                        {
+							    "content_id": "Content_4",
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "01_MPEG1_640x480_30_64_32_Mono.MPG"
+                            }
+            ],
+	
+	"parameter_list": [
+                        {
+							"parameter_id": "start_SMA",
+                            "from": [ "FROM_HOME",
+                                    "FROM_SETTINGS",
+                                    "FROM_USB_CONNECTED",
+                                    "FROM_SEARCH_APP",
+                                    "FROM_SMART_SELECT" 
+                            ]
+                         },
+                        {
+							"parameter_id": "start_playback",
+                            "from": [ "RC_PLAY",							
+                                    "RC_SELECT", 
+                                    "PLAY_FROM_BEGINNING", 
+                                    "RC_OK",
+                                    "DETAILS_ACTIONPANEL" 
+                            ]
+                        },											
+                        {
+							"parameter_id": "stop_playback",
+                            "from": [ "BY_RC_STOP",
+                                    "BY_RC_BACK",
+                                    "BY_PreviousEOFUSB",
+                                    "BY_RC_STOP_PlayOne_RepeatOff",
+                                    "BY_RC_FORWARD"
+                            ]
+                        }
+			]           
+}

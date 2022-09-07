@@ -1,0 +1,76 @@
+{
+    "id": "Grouping",
+    "name": "New Input Json",
+    "desc": "",
+    "sheet": {
+                "name": "SMA_sheet_JSON_converted",
+                "desc": ""
+            },
+    "testCase_list": [       
+            {
+                "testcase_id": "TestCase_001",
+                "desc": "",
+                "seq": [
+                    {
+                        "action": "start_SMA"
+                    },
+                    {
+                        "action": "set_param"
+                    },               
+                    {
+                        "action": "start_playback"                     
+                    }
+                ]
+            },
+            {
+                "testcase_id": "TestCase_002",
+                "desc": "",
+                "seq": [
+                    {
+                        "action": "start_SMA"
+                    },
+                    {
+                        "action": "set_param"
+                    },
+                    {
+                        "action": "start_playback"                          
+                    }
+                ]
+            }
+				           
+    ],
+	
+    "content_list": [
+                        {
+						        "content_id": "Content_1",
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "001_NAVY_SEALS_2Audio.mkv"
+                            },       
+                        {
+							    "content_id": "Content_2",
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "180min_AVC_CBR_768kbps_320x240.mp4"
+                        }
+                
+            ],
+	
+	"parameter_list": [
+                        {
+							"parameter_id": "start_SMA",
+                            "from": [ 
+                                "FROM_HOME",
+                                "FROM_SMART_SELECT"
+                            ]
+                         },
+                        {
+							"parameter_id": "start_playback",
+                            "from": [ 
+                                "RC_PLAY",							
+                                "RC_SELECT"
+                            ]
+                        }       
+			]         
+       	
+}

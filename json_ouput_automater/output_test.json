@@ -1,0 +1,429 @@
+{
+    "id": "JSON_grouping",
+    "name": "New_output_grouping_for_SMA",
+    "desc": "",
+    "sheet": [
+        {
+            "name": "SMA_sheet_JSON_converted",
+            "desc": "",
+            "cases": [
+                {
+                    "id": "TestCase_001_001",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_HOME"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "001_NAVY_SEALS_2Audio.mkv"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_PLAY"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_001_002",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_HOME"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "180min_AVC_CBR_768kbps_320x240.mp4"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_PLAY"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_001_003",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_HOME"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "001_NAVY_SEALS_2Audio.mkv"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_SELECT"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_001_004",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_HOME"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "180min_AVC_CBR_768kbps_320x240.mp4"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_SELECT"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_001_005",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_SMART_SELECT"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "001_NAVY_SEALS_2Audio.mkv"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_PLAY"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_001_006",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_SMART_SELECT"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "180min_AVC_CBR_768kbps_320x240.mp4"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_PLAY"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_001_007",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_SMART_SELECT"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "001_NAVY_SEALS_2Audio.mkv"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_SELECT"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_001_008",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_SMART_SELECT"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "180min_AVC_CBR_768kbps_320x240.mp4"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_SELECT"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_002_001",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_HOME"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "001_NAVY_SEALS_2Audio.mkv"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_PLAY"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_002_002",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_HOME"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "180min_AVC_CBR_768kbps_320x240.mp4"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_PLAY"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_002_003",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_HOME"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "001_NAVY_SEALS_2Audio.mkv"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_SELECT"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_002_004",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_HOME"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "180min_AVC_CBR_768kbps_320x240.mp4"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_SELECT"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_002_005",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_SMART_SELECT"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "001_NAVY_SEALS_2Audio.mkv"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_PLAY"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_002_006",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_SMART_SELECT"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "180min_AVC_CBR_768kbps_320x240.mp4"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_PLAY"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_002_007",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_SMART_SELECT"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "001_NAVY_SEALS_2Audio.mkv"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_SELECT"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "TestCase_002_008",
+                    "desc": "",
+                    "seq": [
+                        {
+                            "action": "start_SMA",
+                            "parameters": {
+                                "from": "FROM_SMART_SELECT"
+                            }
+                        },
+                        {
+                            "action": "set_param",
+                            "parameters": {
+                                "device": "HP V301W(265E-1791)",
+                                "path": "Video/All Videos",
+                                "file": "180min_AVC_CBR_768kbps_320x240.mp4"
+                            }
+                        },
+                        {
+                            "action": "start_playback",
+                            "parameters": {
+                                "from": "RC_SELECT"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
